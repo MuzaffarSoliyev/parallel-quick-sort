@@ -19,6 +19,15 @@ struct MyStruct {
   atomic<int> mid;
 };
 
+//test git
+
+class TestClass
+{
+	int right;
+	int left;
+	TestClass(int first, int second) : right(first), left(second){}
+};
+
 int main() {
   vector<int> arr(ARRAY_SIZE);
   generate_arr(arr);
