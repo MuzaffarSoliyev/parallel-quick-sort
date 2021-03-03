@@ -1,0 +1,24 @@
+THREAD COUNT: 2
+Elements amount:	TIME PARALLEL:	IS SORTED:	SINGLE SORT TIME:	IS SORTED:
+1000				0.047			1			0				1		
+10000				0.008			1			0.002				1		
+100000				0.023			1			0.045				1		
+1000000				1.578			1			3.735				1		
+10000000				110.349			1			352.864				1		
+
+THREAD COUNT: 4
+Elements amount:	TIME PARALLEL:	IS SORTED:	SINGLE SORT TIME:	IS SORTED:
+1000				0.029			1			0				1		
+10000				0.006			1			0.001				1		
+100000				0.017			1			0.042				1		
+1000000				0.577			1			3.898				1		
+10000000				44.872			1			347.868				1		
+
+THREAD COUNT: 8
+Elements amount:	TIME PARALLEL:	IS SORTED:	SINGLE SORT TIME:	IS SORTED:
+1000				0.024			1			0				1		
+10000				0.007			1			0.001				1		
+100000				0.015			1			0.044				1		
+1000000				0.292			1			3.978				1		
+10000000				22.202			1			346.26				1		
+
